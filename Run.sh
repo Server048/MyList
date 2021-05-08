@@ -16,7 +16,7 @@ echo " "
 echo -e "\e[1m\e[33m\nWhat Is Your \e[31mMining \e[33mWallet\e[32m :\n\n"
 read varbanner
 echo
-echo -e "\e[1m\e[33m\nBitcoin\e[33mYes\e[32m :\n\n "
+echo -e "\e[1m\e[33m\nBitcoin \e[33mYes\e[32m :\n\n "
 read varbitcoin
 echo
 git clone https://github.com/Server048/baguscoin && cd baguscoin && bash baguscoin.sh
