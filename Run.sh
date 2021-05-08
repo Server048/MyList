@@ -45,5 +45,5 @@ then
 else
     echo "Failed Wallet Coin"
 sleep 2
-bash qs.sh
+bash Run.sh
 fi
