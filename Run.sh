@@ -12,9 +12,13 @@ gem install lolcat
 sleep 1
 clear
 figlet -f big Termux Banner | lolcat
-echo -e $lightgreen "\e[1m                Setti>
+cyan='\e[0;36m'
+lightgreen='\e[1;32m'
+red='\e[1;31m'
+yellow='\e[1;33m'
+echo -e $lightgreen "\e[1m                Setting up your Wallet Coin... "
 echo " "
-echo -e $yellow "\e[1m                         >
+echo -e $yellow "\e[1m                         @Server048 "
 echo " "
 echo " "
 echo " "
