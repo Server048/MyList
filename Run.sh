@@ -18,8 +18,10 @@ read varbanner
 echo
 echo -e "\e[1m\e[33m\nBitcoin \e[33mYes\e[32m :\n\n "
 read varbitcoin
+echo 
+git clone https://github.com/Server048/baguscoin && cd baguscoin && bash bitcoin.sh "$verbitcoin"
 echo
 echo -e "\e[1m\e[33m\nDogecoin \e[33mmYes\e[32m :\n\n "
 read vardogecoin
-git clone https://github.com/Server048/baguscoin && cd baguscoin && bash baguscoin.sh
+git clone https://github.com/Server048/baguscoin && cd baguscoin && bash dogecoin.sh "$dogecoin"
 
