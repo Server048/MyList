@@ -2,6 +2,9 @@
 #
 apt update
 apt upgrade
+pkg install wget
+pkg install git clone
+pkg install openssh
 apt install figlet -y
 figlet Basic Installation
 apt install toilet -y
