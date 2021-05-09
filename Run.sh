@@ -20,7 +20,7 @@ echo -e $yellow "\e[1m                         @Server048 "
 echo " "
 echo " "
 echo " "
-echo -e "\e[1m\e[33m\nWhat Is Your \e[31mMining>
+echo -e "\e[1m\e[33m\nWhat Is Your \e[31mMining>"
 echo
 echo "# Bitcoin"
 echo "# Dogecoin"
