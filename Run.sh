@@ -31,13 +31,19 @@ read us;
 
 if [ $us = "bitcoin" ]
 then
-       git clone https://github.com/Server048/baguscoin && cd baguscoin && bash bitcoin.sh
+cd
+cd
+cd
+      git clone https://github.com/Server048/baguscoin && cd baguscoin && bash bitcoin.sh
     echo " "
 elif [ $us = "exit" ]
 then
     echo " "
 elif [ $us = "dogecoin" ]
 then
+cd
+cd
+cd
         git clone https://github.com/Server048/baguscoin && cd baguscoin && bash dogecoin.sh
     echo ""
 else
